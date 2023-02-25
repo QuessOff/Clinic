@@ -56,9 +56,9 @@ const Register = () => {
     <div className="register">
       <div className="registerWrapper">
         <div className="registerLeft">
-          <h3 className="registerLogo">FaceBook</h3>
+          <h3 className="registerLogo">clinics</h3>
           <span className="registerDesc">
-            Connect with friends and the world around you on Facebook.
+            welcome to our clinic.
           </span>
         </div>
         <div className="registerRight">

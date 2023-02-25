@@ -4,14 +4,14 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBTezT8hv-SGmQ63Uu4gdAeZD_rO2b8BIM",
-  authDomain: "facebook-clone-d98a5.firebaseapp.com",
-  projectId: "facebook-clone-d98a5",
-  storageBucket: "facebook-clone-d98a5.appspot.com",
-  messagingSenderId: "533021321998",
-  appId: "1:533021321998:web:0916ada2c82d546a43455f",
+  apiKey: "AIzaSyC4nAigr5FG9dTO5OZbPr8JVTul4PoAlKs",
+  authDomain: "chat4-5afb3.firebaseapp.com",
+  databaseURL: "https://chat4-5afb3-default-rtdb.firebaseio.com",
+  projectId: "chat4-5afb3",
+  storageBucket: "chat4-5afb3.appspot.com",
+  messagingSenderId: "538446503571",
+  appId: "1:538446503571:web:7065dd5bc365fda60cf766"
 };
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Stories from "./../stories/Stories";
-import Share from "./../share/Share";
+import Stories from "../stories/Stories";
+import Share from "../share/Share";
 import "./usersPost.scss";
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../../firebase";

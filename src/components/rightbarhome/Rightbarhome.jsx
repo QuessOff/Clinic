@@ -6,7 +6,7 @@ import "./rightbarhome.scss";
 const Rightbarhome = () => {
   return (
     <div className="rightbarhome">
-      <div className="birthdayContainer">
+      {/* <div className="birthdayContainer">
         <img
           src="/assets/birthdaygifts/gift.png"
           alt=""
@@ -16,9 +16,9 @@ const Rightbarhome = () => {
           <b>Sarah Dane</b> and <b>other friends</b> have a birthday today
         </span>
       </div>
-      <img src="/assets/ads/adv.jpg" alt="" className="rightbarAdvert" />
+      <img src="/assets/ads/adv.jpg" alt="" className="rightbarAdvert" /> */}
 
-      <span className="rightbarTitle">Online Friends</span>
+      <span className="rightbarTitle">Online Doctor</span>
 
       <ul className="rightbarFriendList">
         {Usersonline.map((u) => (

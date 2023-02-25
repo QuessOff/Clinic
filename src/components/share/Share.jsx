@@ -9,7 +9,7 @@ import { db, storage } from "../../firebase";
 import { v4 as uuid } from "uuid";
 import React, { useContext, useState } from "react";
 import "./share.scss";
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 import {
   addDoc,
   arrayUnion,
@@ -20,7 +20,6 @@ import {
   doc,
 } from "firebase/firestore";
 import Picker from "@emoji-mart/react";
-
 const Share = () => {
   const [error, setError] = useState(false);
   const { currentUser } = useContext(AuthContext);

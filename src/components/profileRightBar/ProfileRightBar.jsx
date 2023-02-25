@@ -65,7 +65,7 @@ const ProfileRightBar = () => {
         </div>
       </div>
 
-      <h4 className="profileRightBarTitle">Close Friends</h4>
+      {/* <h4 className="profileRightBarTitle">Close Friends</h4>
       <div className="profileRightBarFollowings">
         <div className="profileRightBarFollowing">
           <img
@@ -115,7 +115,7 @@ const ProfileRightBar = () => {
           />
           <span className="profileRightBarFollowingName">Kate</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

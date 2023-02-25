@@ -12,7 +12,7 @@ import "./sidebar.scss";
 import MenuLink from "../menuLink/MenuLink";
 import Friends from "../friends/Friends";
 import { Users } from "../../data";
-import { DarkModeContext } from "./../../context/darkModeContext";
+import { DarkModeContext } from "../../context/darkModeContext";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 const Sidebar = () => {
@@ -28,7 +28,7 @@ const Sidebar = () => {
         <MenuLink Icon={<ShoppingCartIcon />} text="Marketplace" />
         <MenuLink Icon={<EventIcon />} text="Events" />
         <span onClick={() => dispatch({ type: "TOGGLE" })}>
-          <MenuLink Icon={<Brightness4Icon />} text="Theme" />
+          <MenuLink Icon={<c/>} text="Theme" />
         </span>
         <span onClick={() => signOut(auth)}>
           <MenuLink Icon={<ExitToAppOutlinedIcon />} text="Logout" />

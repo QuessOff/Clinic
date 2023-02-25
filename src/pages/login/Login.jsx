@@ -26,9 +26,9 @@ const Login = () => {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">FaceBook</h3>
+          <h3 className="loginLogo">Clinik</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Facebook.
+          welcome to our clinic.
           </span>
         </div>
         <div className="loginRight">

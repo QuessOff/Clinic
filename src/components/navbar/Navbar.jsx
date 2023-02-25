@@ -6,7 +6,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Link } from "react-router-dom";
 import "./navbar.scss";
 import { useContext } from "react";
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 
 const Navbar = () => {
   const { currentUser } = useContext(AuthContext);
@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="navbarContainer">
       <div className="navbarLeft">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">FaceBook</span>
+          <span className="logo">clinic</span>
         </Link>
       </div>
       <div className="navbarCenter">
@@ -32,7 +32,7 @@ const Navbar = () => {
           <span className="navbarLink">Homepage</span>
           <span className="navbarLink">Timeline</span>
         </div>
-        <div className="navbarIcons">
+        {/* <div className="navbarIcons">
           <div className="navbarIconItem">
             <PersonIcon />
             <span className="navbarIconBadge">2</span>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <NotificationsIcon />
             <span className="navbarIconBadge">8</span>
           </div>
-        </div>
+        </div> */}
         <Link to={`/profile/${currentUser.displayName}`}>
           <img src={currentUser.photoURL} alt="" className="navbarImg" />
         </Link>
